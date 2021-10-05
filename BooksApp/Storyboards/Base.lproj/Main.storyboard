@@ -106,6 +106,7 @@
                             <constraint firstItem="lwd-JL-m49" firstAttribute="top" secondItem="PIG-6D-5jV" secondAttribute="bottom" constant="25" id="U8C-Rc-6lu"/>
                             <constraint firstItem="lwd-JL-m49" firstAttribute="leading" secondItem="PfB-wB-BbZ" secondAttribute="leading" constant="71" id="YC3-xb-GnP"/>
                             <constraint firstItem="R5U-UC-BQe" firstAttribute="top" secondItem="hHu-QE-XA4" secondAttribute="top" id="ZvQ-dh-1Tr"/>
+                            <constraint firstItem="R5U-UC-BQe" firstAttribute="centerY" secondItem="hHu-QE-XA4" secondAttribute="centerY" id="bv9-Mk-o5Q"/>
                             <constraint firstItem="PfB-wB-BbZ" firstAttribute="trailing" secondItem="lwd-JL-m49" secondAttribute="trailing" constant="71" id="dJy-DR-zvH"/>
                             <constraint firstItem="PfB-wB-BbZ" firstAttribute="bottom" secondItem="g3a-Lo-Hnx" secondAttribute="bottom" constant="25" id="gLM-Am-54a"/>
                             <constraint firstItem="PfB-wB-BbZ" firstAttribute="trailing" secondItem="g3a-Lo-Hnx" secondAttribute="trailing" constant="35" id="kQo-Dv-MGl"/>
@@ -113,6 +114,7 @@
                             <constraint firstAttribute="bottom" secondItem="R5U-UC-BQe" secondAttribute="bottom" id="rKh-rn-g7l"/>
                             <constraint firstItem="R5U-UC-BQe" firstAttribute="trailing" secondItem="PfB-wB-BbZ" secondAttribute="trailing" id="rng-xk-ePv"/>
                             <constraint firstItem="R5U-UC-BQe" firstAttribute="leading" secondItem="PfB-wB-BbZ" secondAttribute="leading" id="sVu-hC-BBO"/>
+                            <constraint firstItem="R5U-UC-BQe" firstAttribute="centerX" secondItem="hHu-QE-XA4" secondAttribute="centerX" id="tbr-TT-wsu"/>
                             <constraint firstItem="lwd-JL-m49" firstAttribute="centerY" secondItem="hHu-QE-XA4" secondAttribute="centerY" id="yHe-Xd-ZsT"/>
                         </constraints>
                     </view>
