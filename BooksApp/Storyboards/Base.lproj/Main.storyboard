@@ -133,7 +133,7 @@
         <scene sceneID="7gR-KU-Fdo">
             <objects>
                 <navigationController storyboardIdentifier="NavigationContoller" useStoryboardIdentifierAsRestorationIdentifier="YES" id="E1k-qk-DRJ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bFo-bX-5dL">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" largeTitles="YES" id="bFo-bX-5dL">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

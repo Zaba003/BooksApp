@@ -39,6 +39,7 @@
 		D4AFD804270C772300F5B3E3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		D4AFD806270C77DC00F5B3E3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4AFD809270C79E500F5B3E3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D4AFD80B270CAC9700F5B3E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D4DAA5A9270AB7A000796412 /* CircularAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAnimation.swift; sourceTree = "<group>"; };
 		D4DAA5AB270AB81A00796412 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +58,7 @@
 		D46433E7270805160050AE3E = {
 			isa = PBXGroup;
 			children = (
+				D4AFD80B270CAC9700F5B3E3 /* README.md */,
 				D46433F2270805160050AE3E /* BooksApp */,
 				D46433F1270805160050AE3E /* Products */,
 			);

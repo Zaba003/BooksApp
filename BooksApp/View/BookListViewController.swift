@@ -12,7 +12,7 @@ class BookListViewController: UITableViewController {
     private var books: [Book] = []
     private var sortName = false
     private var sortDate = false
-
+    
     @IBAction func sortBtn(_ sender: Any) {
         showActionSheet()
     }
@@ -20,8 +20,26 @@ class BookListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         books = StorageManager.shared.fetchBooksFromFile()
+        setupNavBarStyle()
+        
     }
     
+    func setupNavBarStyle() {
+        let navBar = self.navigationController!.navigationBar
+        
+        let standardAppearance = UINavigationBarAppearance()
+        standardAppearance.configureWithOpaqueBackground()
+        standardAppearance.backgroundColor = #colorLiteral(red: 0.9764705882, green: 0.9764705882, blue: 0.9764705882, alpha: 1)
+        
+        let compactAppearance = standardAppearance.copy()
+        
+        navBar.standardAppearance = standardAppearance
+        navBar.scrollEdgeAppearance = standardAppearance
+        navBar.compactAppearance = compactAppearance
+        if #available(iOS 15.0, *) { // For compatibility with earlier iOS.
+            navBar.compactScrollEdgeAppearance = compactAppearance
+        }
+    }
     
     // MARK: - Table view data source
     
@@ -109,7 +127,7 @@ class BookListViewController: UITableViewController {
             self.sortName = true
             self.sortDate = false
             self.sorting()
-
+            
             
         }))
         
