@@ -9,11 +9,15 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let defaults = UserDefaults.standard
+        if defaults.object(forKey: "isFirstStart") == nil {
+            defaults.set(true, forKey: "isFirstStart")
+            defaults.synchronize()
+        }
+        
         return true
     }
 

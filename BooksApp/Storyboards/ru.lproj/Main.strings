@@ -1,0 +1,24 @@
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "9se-7u-fJH"; */
+"9se-7u-fJH.text" = "Subtitle";
+
+/* Class = "UIButton"; configuration.title = "Start"; ObjectID = "g3a-Lo-Hnx"; */
+"g3a-Lo-Hnx.configuration.title" = "Старт";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "g3a-Lo-Hnx"; */
+"g3a-Lo-Hnx.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Add new book"; ObjectID = "Gno-FB-RJf"; */
+"Gno-FB-RJf.title" = "Добавить новую книгу";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "iTx-x3-jCC"; */
+"iTx-x3-jCC.text" = "Заголовок";
+
+/* Class = "UINavigationItem"; title = "Book list"; ObjectID = "jVW-NV-Bsv"; */
+"jVW-NV-Bsv.title" = "Список книг";
+
+/* Class = "UIButton"; configuration.title = "Add"; ObjectID = "VuL-MF-evj"; */
+"VuL-MF-evj.configuration.title" = "Добавить";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VuL-MF-evj"; */
+"VuL-MF-evj.normalTitle" = "Button";
+
