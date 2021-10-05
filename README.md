@@ -3,6 +3,7 @@
 - UIKit
 - Swift 5
 - Save data to file
+- localized into Russian
 - CircularAnimation
 - The start window is loaded only when the application is first launched
 
