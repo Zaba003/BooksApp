@@ -21,9 +21,10 @@ class BookListViewController: UITableViewController {
         super.viewDidLoad()
         books = StorageManager.shared.fetchBooksFromFile()
         setupNavBarStyle()
-        
+    
     }
     
+    // MARK: - Navigation Bar Style
     func setupNavBarStyle() {
         let navBar = self.navigationController!.navigationBar
         
